@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=utf8" />
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- TITLE OF SITE -->
+	<title>Akhil Chaudhary</title>
+
+	<meta name="description" content="Multipurpose Landing Page" />
+	<meta name="keywords"
+		content="html theme, agency landing page, agency theme, agency template, portfolio theme, freelancer theme, creative theme, digital theme, html landing page, one page, responsive landing page" />
+	<meta name="author" content="Akhil">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+	<!-- =========================
+         STYLESHEETS 
+    ============================== -->
+	<!-- BOOTSTRAP CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- FONT ICONS -->
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<!-- FONTS -->
+	<link rel="stylesheet" href="css/fonts.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+	<!-- PLUGINS STYLESHEET -->
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/photoswipe.css">
+	<link rel="stylesheet" href="css/default-skin/default-skin.css">
+	<!-- CUSTOM STYLESHEET -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/coffee.css">
+	<link rel="stylesheet" href="css/style_switcher.css">
+	<!--SLIDE-->
+</head>
+
+<body>
+
+	<!-- =========================
+     PRELOADER 
+============================== -->
+	<div id="page-preloader">
+		<div class="wrapper">
+			<svg class="tea" width="77" height="88" viewbox="0 0 37 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M27.0819 17H3.02508C1.91076 17 1.01376 17.9059 1.0485 19.0197C1.15761 22.5177 1.49703 29.7374 2.5 34C4.07125 40.6778 7.18553 44.8868 8.44856 46.3845C8.79051 46.79 9.29799 47 9.82843 47H20.0218C20.639 47 21.2193 46.7159 21.5659 46.2052C22.6765 44.5687 25.2312 40.4282 27.5 34C28.9757 29.8188 29.084 22.4043 29.0441 18.9156C29.0319 17.8436 28.1539 17 27.0819 17Z"
+					stroke="var(--secondary)" stroke-width="2"></path>
+				<path
+					d="M29 23.5C29 23.5 34.5 20.5 35.5 25.4999C36.0986 28.4926 34.2033 31.5383 32 32.8713C29.4555 34.4108 28 34 28 34"
+					stroke="var(--secondary)" stroke-width="2"></path>
+				<path id="teabag" fill="var(--secondary)" fill-rule="evenodd" clip-rule="evenodd"
+					d="M16 25V17H14V25H12C10.3431 25 9 26.3431 9 28V34C9 35.6569 10.3431 37 12 37H18C19.6569 37 21 35.6569 21 34V28C21 26.3431 19.6569 25 18 25H16ZM11 28C11 27.4477 11.4477 27 12 27H18C18.5523 27 19 27.4477 19 28V34C19 34.5523 18.5523 35 18 35H12C11.4477 35 11 34.5523 11 34V28Z">
+				</path>
+				<path id="steamL" d="M17 1C17 1 17 4.5 14 6.5C11 8.5 11 12 11 12" stroke-width="2"
+					stroke-linecap="round" stroke-linejoin="round" stroke="var(--secondary)"></path>
+				<path id="steamR" d="M21 6C21 6 21 8.22727 19 9.5C17 10.7727 17 13 17 13" stroke="var(--secondary)"
+					stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+			</svg>
+		</div>
+	</div>
+
+	<!-- =========================
+     HEADER 
+============================== -->
+	<!-- Color/style switch block -->
+	<div class="color_switch_container">
+		<div class="corner_border_container accent_border_color"></div>
+		<div class="corner corner_button">
+			<span class="cog_i">
+				<i class="fa fa-cog transition_settings_25" aria-hidden="true"></i>
+			</span>
+			<span class="close_i">
+				<i class="fa fa-times transition_settings_25" aria-hidden="true"></i>
+			</span>
+		</div>
+		<div class="style_switcher transition_settings_25">
+			<div class="switcher_container">
+				<h5 class="switcher">
+					Change mode:
+				</h5>
+				<div class="change_template">
+					<a href="white.html" class="tmp_switch transition_settings_25">
+						<img src="img/sun.png" alt="SUN" title="Day" /></a>
+					<a href="#" class="tmp_switch active_tmp transition_settings_25">
+						<img src="img/moon.png" alt="MOON" title="Night" /></a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Nav block -->
+		<!-- Name on right of menu button -->
+		<div class="name transition_settings_25 logo_on_header uppercase" id="name3"></div>
+		<div id="menu_active_overlay" class="lm_bg accent_color_overlay transition_settings_40"></div>
+		<div id="left_menu" class="left_menu transition_settings_25 accent_color_background">
+			<div class="accent_color_background button button-rotate transition_settings_60">
+				<span></span>
+			</div>
+			<!-- Menu list -->
+			<div class="menu transition_settings_25">
+				<ul>
+					<li class="transition_settings_25"><a
+							class="scrollto button_menu color_on_accent transition_settings_25" href="#about_me">About
+							Me</a></li>
+					<li class="transition_settings_25"><a
+							class="scrollto button_menu color_on_accent transition_settings_25"
+							href="#resume">Resume</a></li>
+					<li class="transition_settings_25"><a
+							class="scrollto button_menu color_on_accent transition_settings_25"
+							href="#my_projects">Projects</a></li>
+					<li class="transition_settings_25"><a
+							class="scrollto button_menu color_on_accent transition_settings_25"
+							href="#testimonials">Testimonials</a></li>
+					<li class="transition_settings_25"><a
+							class="scrollto button_menu color_on_accent transition_settings_25"
+							href="#contacts">Contact</a></li>
+					<li class="transition_settings_25"><a
+							class="scrollto button_menu color_on_accent transition_settings_25"
+							href="https://drive.google.com/open?id=14VNgXVWYmwOqtyoZHzzAxEUa21malanA">Download CV <i
+								class="fa fa-download color_on_accent" aria-hidden="true"></i></a></li>
+				</ul>
+				<div>
+					<p>
+						<br>
+						"You don`t have to be great to start,
+						<br />but you have to start to be great."
+					</p>
+				</div>
+			</div>
+			<!-- Menu social icons(font-awesome) -->
+			<div class="bottom_menu_block transition_settings_25 color_bb">
+				<div class="social_icon">
+					<a class="transition_settings_25" href="https://www.facebook.com/AkhilChaudhary8181022104"><i
+							class="fa fa-facebook color_on_accent" aria-hidden="true"></i></a>
+					<a class="transition_settings_25" href="https://github.com/Akhil-chaudhary/"><i
+							class="fa fa-github color_on_accent" aria-hidden="true"></i></a>
+					<a class="transition_settings_25" href="https://www.instagram.com/akhilchaudhary.js/"><i
+							class="fa fa-instagram color_on_accent" aria-hidden="true"></i></a>
+					<a class="transition_settings_25" href="https://www.linkedin.com/in/akhil-chaudhary-0478a1187"><i
+							class="fa fa-linkedin color_on_accent" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</div>
+		<!-- =========================
+    END OF HEADER 
+============================== -->
+
+		<!-- =========================
+     MAIN SECTION 
+============================== -->
+		<div id="main_workflow" class="main_workflow color_links transition_settings_25">
+			<!-- Main fullscreen image -->
+			<div id="first_slide">
+
+				<!-- Name on right of menu button -->
+				<div class="name transition_settings_25 logo_on_header uppercase" id="name1">
+				</div>
+				<div class="fsi_helper">
+					<div class="first_slide_img fsi_active" data-start=" transform: translate3d(0px, 0px, 0px);"
+						data-500-end=" transform: translate3d(0px, 2400px, 0px);"></div>
+				</div>
+				<div class="content_block hero-content">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-2 col-xs-8 col-xs-offset-0">
+								<div data-start="opacity:1; transform: translate3d(0px, 0px, 0px);"
+									data-500-end="opacity:0; transform: translate3d(0px, 2100px, 0px);">
+									<div class="border_text transition_settings_60 accent_border_color"></div>
+								</div>
+								<div data-start="opacity:1; transform: translate3d(0px, 0px, 0px);"
+									data-500-end="opacity:0; transform: translate3d(0px, 2000px, 0px);">
+									<div class="text_block">
+										<i class="accent_color_text">Hello</i>,<br> i`m a full stack<br><b>Web and
+											App</b> <i class="accent_color_text"><b>Developer</b></i>.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="button_bot transition_settings_60 button-bottom">
+					<span></span>
+				</div>
+			</div>
+
+			<!-- =========================
+    SITE BLOCKS 
+	============================== -->
+			<div class="color_canvas">
+				<!-- Name on right of menu button -->
+				<div class="name transition_settings_25 logo_on_body uppercase" id="name2">
+				</div>
+				<!-- About me section -->
+				<div id="about_me" class="section_frame reveal">
+					<div class="container" style="height: 300%;">
+						<div class="row">
+							<!-- Section title -->
+							<div class="col-md-9 col-md-offset-3 col-xs-12 col-xs-offset-0 transition_animtaion_text_1">
+								<svg id="container" viewBox="0 0 250 240" version="1.1"
+									xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+									<g stroke="#E45064" fill="transparent" stroke-width="4">
+										<path
+											d="M0,144.318237 C20.3085937,144.318237 75.390625,88.0447998 75.390625,36.8221436 C75.390625,-14.4005127 53.9296875,-7.15832738 53.9296875,36.2010498 C53.9296875,79.560427 63.3359375,165.814331 50.515625,202.400269 C37.6953125,238.986206 25.5859375,210.177612 35.4296875,177.247925 C45.2734375,144.318237 70.6015625,102.1698 109.703125,108.372925 C148.804688,114.57605 89.0117188,218.880737 164.21875,209.021362"
+											id="h" />
+
+										<path
+											d="M163 208.9355636C185.13036019999998 208.9355636 202.1690483 153.455467 202.1690483 130.7899933C202.1690483 108.12451953 188.8601962 108.68389892 188.8601962 130.7899927C188.8601962 152.8960864 193.4128566 206.7442988 225.796875 206.74430139999998C258.1808934 206.744304 232.9897273 159.7572021 213.1015625 160.4511886"
+											id="i" />
+
+										<path
+											d="M181.2382812 87.1132812C198.80859370000002 105.1640625 209.92578120000002 77.7382812 195.5820312 65.8398437C181.2382812 53.94140625 170.53515539 63.46484408 186.4296875 75.2890625C202.3242196 87.1132809 218.9335945 66.171875 207.2578125 57.23828125C195.5820305 48.3046875 152.8437509 78.6640617 169.63671875 87.8554688C186.4296866 97.04687580000001 211.52734370000002 74.8007814 190.5820312 70.3203125"
+											id="dot" />
+
+									</g>
+								</svg>
+								<!-- <h2 class="accent_color_text">About me</h2> -->
+								<p class="mid">
+									My name is Akhil Chaudhary, and I`m Delhi/NCR-based freelancer. I design and
+									code beautifully simple things, and I love what I do.
+								</p>
+								<p class="mid">
+									I help designers, small agencies and businesses bring their ideas to life. Powered
+									by <a class="transition_settings_20 accent_color_text accent_border_color"
+										href="https://code.visualstudio.com/">VS Code</a> and <a
+										class="transition_settings_20 accent_color_text accent_border_color"
+										href="https://en.wikipedia.org/wiki/Coffee">coffee</a>, I turn your requirements
+									in responsive websites and mobile
+									apps, on time and on budget.
+								</p>
+							</div>
+							<div class="col-md-9 col-md-offset-3 col-xs-12 col-xs-offset-0 transition_animtaion_text_1"
+								style="padding-bottom:280px;">
+								<div class="con">
+									<div class="coffee-header">
+										<div class="coffee-header__buttons coffee-header__button-one"></div>
+										<div class="coffee-header__buttons coffee-header__button-two"></div>
+										<div class="coffee-header__display"></div>
+										<div class="coffee-header__details"></div>
+									</div>
+									<div class="coffee-medium">
+										<div class="coffe-medium__exit"></div>
+										<div class="coffee-medium__arm"></div>
+										<div class="coffee-medium__liquid"></div>
+										<div class="coffee-medium__smoke coffee-medium__smoke-one"></div>
+										<div class="coffee-medium__smoke coffee-medium__smoke-two"></div>
+										<div class="coffee-medium__smoke coffee-medium__smoke-three"></div>
+										<div class="coffee-medium__smoke coffee-medium__smoke-for"></div>
+										<div class="coffee-medium__cup"></div>
+									</div>
+									<div class="coffee-footer"></div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<!-- Resume section -->
+				<div id="resume">
+					<div class="resume section_frame reveal">
+						<div class="container">
+							<div class="row">
+								<!-- Section title -->
+								<div class="col-md-9 col-md-offset-3 col-xs-12 col-xs-offset-0">
+									<h2 class="accent_color_text ">Resume</h2>
+									<span class="base_margin_spacer"></span>
+								</div>
+							</div>
+							<div class="row">
+								<!-- Resume text-block -->
+								<div class="col-md-3 col-md-offset-3 col-xs-12 col-xs-offset-0">
+									<div class="resume_block">
+										<i class="icon-compass icons accent_color_text"></i>
+										<h3 class="accent_color_text">Web Development</h3>
+										<p class="small_text color_mid">
+											Your website is a powerful marketing tool. A well-maintained website can
+											help you gain a competitive advantage in your industry and improve your
+											business image. Developing your website offers many benefits including
+											helping you get more leads and prospects, increase sales, enhance your
+											professional brand, and improve your customer service. But surprisingly,
+											according to various recent studies, just about 35% – 40% of all small
+											businesses don’t have websites.
+										</p>
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="resume_block">
+										<i class="icon-screen-smartphone icons accent_color_text"></i>
+										<h3 class="accent_color_text">App Development</h3>
+										<p class="small_text color_mid">
+											Apps allow you to resolve customer questions, makes them aware of the
+											discounts or offers you are providing, gives a platform to directly interact
+											with the company and suggest services the way they want. Mobile apps make
+											customer service a simpler and more efficient process for businesses.
+										</p>
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="resume_block">
+										<i class="icon-vector icons accent_color_text"></i>
+										<h3 class="accent_color_text">UX/UI Design</h3>
+										<p class="small_text color_mid">
+											UX design refers to the term “user experience design”, while UI stands for
+											“user interface design”. Both elements are crucial to a product and work.
+										</p>
+									</div>
+								</div>
+							</div>
+							<!-- Progressbars -->
+							<div class="row">
+								<div class="col-md-9 col-md-offset-3 col-xs-12 col-xs-offset-0">
+									<div id="progressbar">
+										<div id="progressline_1">
+											<p class="small_text uppercase letter-spacing">UX/UI Design</p>
+										</div>
+										<div id="progressline_2">
+											<p class="small_text uppercase letter-spacing">React-Native</p>
+										</div>
+										<div id="progressline_3">
+											<p class="small_text uppercase letter-spacing">HTML</p>
+										</div>
+										<div id="progressline_4">
+											<p class="small_text uppercase letter-spacing">Photoshop</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--Certificates-->
+							<div class="row" style="margin-top:5%;">
+								<!-- Section title -->
+								<div class="col-md-9 col-md-offset-3 col-xs-12 col-xs-offset-0">
+									<h2 class="accent_color_text ">Certificates</h2>
+									<span class="base_margin_spacer"></span>
+								</div>
+							</div>
+							<div class="carousel">
+								<figure>
+									<img src="img/certificate/sih.jpg" alt="SIH">
+									<img src="img/certificate/hack.jpg" alt="hack">
+									<img src="img/certificate/marketing.JPG" alt="Marketing">
+									<img src="img/certificate/aws.JPG" alt="AWS">
+									<img src="img/certificate/blockchain.JPG" alt="Blockchain">
+									<img src="img/certificate/DBMS.JPG" alt="DBMS">
+									<img src="img/certificate/DS.JPG" alt="DS">
+									<!-- <img src="img/certificate/Compiler.JPG" alt="Compiler"> -->
+									<img src="img/certificate/tafl.JPG" alt="TAFL">
+								</figure>
+								<nav>
+									<button class="nav prev">Prev</button>
+									<button class="nav next">Next</button>
+								</nav>
+								<a style="padding-top:10px" class="accent_color_text"
+									href="https://drive.google.com/drive/u/1/folders/1JcX8U0Vqmbu7RlUEhXHu4Ti_-d2EG2-e">More...</a>
+							</div>
+
+							<script src="js/photo.js"></script>
+							<!-- Technology logo -->
+							<div class="row" style="margin-top:5%;">
+								<!-- Section title -->
+								<div class="col-md-9 col-md-offset-3 col-xs-12 col-xs-offset-0">
+									<h2 class="accent_color_text ">Technologies used</h2>
+									<span class="base_margin_spacer"></span>
+								</div>
+							</div>
+							<div class="row">
+								<div
+									class="col-md-9 col-md-offset-3 col-xs-12 col-xs-offset-0 transition_animtaion_text_1">
+									<p class="mid">
+										These are some technologies under my belt.
+									</p>
+								</div>
+							</div>
+							<div class="infinite-width">
+								<div class="slider">
+									<div class="slide-track">
+										<div class="slide">
+											<img src="img/technology/git.png" height="100" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/technology/python.png" height="100" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/technology/reactnative.png" height="100" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/technology/html.png" height="100" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/technology/css.png" height="100" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/technology/js.png" height="100" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/technology/photoshop.png" height="100" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/technology/firebase.png" height="100" alt="" />
+										</div>
+										<div class="slide more2">
+											<img src="img/technology/aws.png" height="100" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/technology/gcp.png" height="100" alt="" />
+										</div>
+										<div class="slide more">
+											<img src="img/technology/django.png" height="100" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/technology/git.png" height="100" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/technology/python.png" height="100" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/technology/reactnative.png" height="100" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/technology/html.png" height="100" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/technology/css.png" height="100" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/technology/js.png" height="100" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/technology/photoshop.png" height="100" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/technology/firebase.png" height="100" alt="" />
+										</div>
+										<div class="slide more2">
+											<img src="img/technology/aws.png" height="100" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/technology/gcp.png" height="100" alt="" />
+										</div>
+										<div class="slide more">
+											<img src="img/technology/django.png" height="100" alt="" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Work history section -->
+			<div class="history section_frame reveal">
+				<div class="container">
+					<div class="row">
+						<!-- Work history title -->
+						<div class="col-md-9 col-md-offset-3 col-xs-12 col-xs-offset-0">
+							<h2 class="accent_color_text letter-spacing">Work history</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="container his">
+							<div class="row year-section">
+								<div class="col-xs-12 col-md-2">
+									<div class="pull-right year">2018</div>
+								</div>
+								<div class="col-xs-12 col-md-6 col-lg-7">
+									<div class="big">Completed my graduation from St. Joseph’s School, affiliated to the
+										Council for the ISCE</div>
+								</div>
+								<div class="col-xs-12 col-md-4 col-lg-3">
+									<div class="aside">INTER COLLEGE<br>
+										<a href="http://www.sjsgorakhnath.org/">ST. JOSEPH`S SCHOOL</a></div>
+								</div>
+							</div>
+							<div class="row year-section">
+								<div class="col-xs-12 col-md-2">
+									<div class="pull-right year"></div>
+								</div>
+								<div class="col-xs-12 col-md-6 col-lg-7">
+									<div class="big">Began my post graduation as a Btech aspirant in ABESIT, Affiliated
+										to Dr. APJ Abdul Kalam Technical University
+									</div>
+								</div>
+								<div class="col-xs-12 col-md-4 col-lg-3">
+									<div class="aside">COLLEGE<br>
+										<a href="https://abesit.in/">ABES INSTITUTE OF TECHNOLOGY</a></div>
+								</div>
+							</div>
+							<div class="row year-section">
+								<div class="col-xs-12 col-md-2">
+									<div class="pull-right year">2019</div>
+								</div>
+								<div class="col-xs-12 col-md-6 col-lg-7">
+									<div class="big">Participated in HACK THE WEB competition under Developers Students
+										Club(DSC), ABESIT.</div>
+								</div>
+								<div class="col-xs-12 col-md-4 col-lg-3">
+									<div class="aside">HACK THE WEB 1.0<br>
+										<a href="https://abesit.in/">ABESIT</a>
+									</div>
+								</div>
+							</div>
+							<div class="row year-section">
+								<div class="col-xs-12 col-md-2">
+									<div class="pull-right year">2020</div>
+								</div>
+								<div class="col-xs-12 col-md-6 col-lg-7">
+									<div class="big">Secured 2nd postion in internal hackathon for SIH 2020</div>
+								</div>
+								<div class="col-xs-12 col-md-4 col-lg-3">
+									<div class="aside">SMART INDIA HACKATHON<br>
+										<a href="https://abesit.in/">ABESIT</a></div>
+								</div>
+							</div>
+							<div class="row year-section">
+								<div class="col-xs-12 col-md-2">
+									<div class="pull-right year"></div>
+								</div>
+								<div class="col-xs-12 col-md-6 col-lg-7">
+									<div class="big">Made it to the final round of Techathalon 2020</div>
+								</div>
+								<div class="col-xs-12 col-md-4 col-lg-3">
+									<div class="aside">TECHATHALON<br>
+										<a href="https://www.ipec.org.in/">IPEC</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- My projects section -->
+			<div id="my_projects" class="section_frame reveal">
+				<div class="container">
+					<div class="row">
+						<!-- My projects title -->
+						<div class="col-md-9 col-md-offset-3 col-xs-12 col-xs-offset-0">
+							<h2 class="accent_color_text">My Projects</h2>
+						</div>
+						<div class="col-md-9 col-md-offset-3 col-xs-12 col-xs-offset-0">
+							<div class="row">
+								<!-- 3D gallery container -->
+								<div class="gallery">
+									<div class="col-md-6 col-xs-6 col-xs-offset-0">
+										<!-- Image block -->
+										<div class="b_img">
+											<a href="img/back/ncrb.jpeg" class="project js-pswp-img-lk"
+												data-pswp-uid="1" data-img-index="0">
+												<div class="project__card">
+													<div class="project_overlay accent_color_overlay">
+													</div>
+													<div class="img_helper">
+														<!-- Img
+												You can use any size of images
+												-->
+														<img class="prj_img" src="img/back/ncrb.jpeg"
+															alt="project-image">
+													</div>
+													<div class="project_detail accent_border_color">
+														<!-- Gallery element title -->
+														<p
+															class="project_title small_text uppercase letter-spacing nomargin">
+															APP</p>
+														<!-- Gallery element description -->
+														<p class="project_dsc nomargin uppercase"><b>NCRB app</b></p>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="col-md-6  col-xs-6 col-xs-offset-0">
+										<!-- Image block -->
+										<div class="b_img">
+											<a href="img/back/rubix.PNG" class="project js-pswp-img-lk"
+												data-pswp-uid="1" data-img-index="1">
+												<div class="project__card">
+													<div class="project_overlay accent_color_overlay">
+													</div>
+													<div class="img_helper">
+														<img class="prj_img" src="img/back/rubix.PNG"
+															alt="project-image">
+													</div>
+													<div class="project_detail accent_border_color">
+														<p
+															class="project_title small_text uppercase letter-spacing nomargin">
+															WEBSITE</p>
+														<p class="project_dsc nomargin uppercase"><b>RubiX club website
+															</b></p>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="col-md-6  col-xs-6 col-xs-offset-0">
+										<!-- Image block -->
+										<div class="b_img">
+											<a href="img/back/fintech.jpeg" class="project js-pswp-img-lk"
+												data-pswp-uid="1" data-img-index="2">
+												<div class="project__card">
+													<div class="project_overlay accent_color_overlay">
+													</div>
+													<div class="img_helper">
+														<img class="prj_img" src="img/back/fintech.jpeg"
+															alt="project-image">
+													</div>
+													<div class="project_detail accent_border_color">
+														<p
+															class="project_title small_text uppercase letter-spacing nomargin">
+															WEBSITE</p>
+														<p class="project_dsc nomargin uppercase"><b>Financial tools
+															</b></p>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="col-md-6  col-xs-6 col-xs-offset-0">
+										<!-- Image block -->
+										<div class="b_img">
+											<a href="img/back/snake.JPG" class="project js-pswp-img-lk"
+												data-pswp-uid="1" data-img-index="3">
+												<div class="project__card">
+													<div class="project_overlay accent_color_overlay">
+													</div>
+													<div class="img_helper">
+														<img class="prj_img" src="img/back/snake.JPG"
+															alt="project-image">
+													</div>
+													<div class="project_detail accent_border_color">
+														<p
+															class="project_title small_text uppercase letter-spacing nomargin">
+															JAVSCRIPT GAME</p>
+														<p class="project_dsc nomargin uppercase"><b>Snake Game
+															</b></p>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="col-md-6 col-xs-6 col-xs-offset-0">
+										<!-- Image block -->
+										<div class="b_img">
+											<a href="img/back/path.JPG" class="project js-pswp-img-lk" data-pswp-uid="1"
+												data-img-index="4">
+												<div class="project__card">
+													<div class="project_overlay accent_color_overlay">
+													</div>
+													<div class="img_helper">
+														<!-- Img
+												You can use any size of images
+												-->
+														<img class="prj_img" src="img/back/path.JPG"
+															alt="project-image">
+													</div>
+													<div class="project_detail accent_border_color">
+														<!-- Gallery element title -->
+														<p
+															class="project_title small_text uppercase letter-spacing nomargin">
+															WEBSITE</p>
+														<!-- Gallery element description -->
+														<p class="project_dsc nomargin uppercase"><b>Shortest Path
+																Finder</b></p>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Testimonials section -->
+			<div id="testimonials" class="section_frame reveal">
+				<div class="container">
+					<div class="row">
+						<!-- Testimonials title and top-text with links -->
+						<div class="col-md-9 col-md-offset-3 col-xs-12 col-xs-offset-0">
+							<h2 class="accent_color_text">Testimonials</h2>
+							<p class="huge description color_mid">
+								I have been honored to work with them
+							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-md-offset-3 col-xs-12 col-xs-offset-0  transition_animtaion_text_1">
+							<figure class="snip1359 hover">
+								<figcaption><img src="img/test/Sahyog.jpg" alt="Sahyog Saini" class="profile" />
+									<blockquote>A person like you always stands behind the team in good as well as the
+										hard times. You helped us in reaching our target work, we are fortunate to have
+										you on our team.You and your work always stood by the expectations and has a
+										meaningful contribution.</blockquote>
+								</figcaption>
+								<h3>Sahyog Saini<span>Team Leader</span></h3>
+							</figure>
+						</div>
+
+						<div class="col-md-4 col-md-offset-1 col-xs-12 col-xs-offset-0 transition_animtaion_text_1">
+							<figure class="snip1359 hover">
+								<figcaption><img src="img/test/Shweta.jpeg" alt="profile-sample7" class="profile" />
+									<blockquote>Akhil is a goal driven and hard working candidate, not only he does his
+										job with perfection,but he also help other's to grow well. With the common goal
+										and motive I must say he can be the best team mate ever one can have. It's been
+										a pleasure to work with Akhil.</blockquote>
+								</figcaption>
+								<h3>Shweta Shukla<span>Data Analyst</span></h3>
+							</figure>
+						</div>
+					</div>
+					<div class="row">
+						<div style="padding-top: 50px;"></div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-md-offset-3 col-xs-12 col-xs-offset-0  transition_animtaion_text_1">
+							<figure class="snip1359 hover">
+								<figcaption><img src="img/test/Divesh.JPG" alt="profile-sample7" class="profile" />
+									<blockquote>Akhil is as good a coder as he is a team player, Working with him
+										provides an excellent work environment.</blockquote>
+								</figcaption>
+								<h3>Divesh Singh<span>Jr. Developer</span></h3>
+							</figure>
+						</div>
+
+						<div class="col-md-4 col-md-offset-1 col-xs-12 col-xs-offset-0">
+							<figure class="snip1359 hover">
+								<figcaption><img src="img/test/Abhyudaya.jpeg" alt="profile-sample7" class="profile" />
+									<blockquote>Akhil Chaudhary is an excellent team worker. We have worked in same team
+										for E-yantra competition. He has great dedication for his work and is always
+										self motivated to finish his task.</blockquote>
+								</figcaption>
+								<h3>Abhyudaya Mittal<span>Project Associate</span></h3>
+							</figure>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Contacts/footer section -->
+			<div id="contacts" class="section_frame reveal contacts_reveal">
+				<div class="container">
+					<div class="row">
+						<!-- Contacts title -->
+						<div class="col-md-9 col-md-offset-3 col-xs-12 col-xs-offset-0">
+							<h2 class="accent_color_text">Contacts</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-md-offset-3 col-xs-12 col-xs-offset-0">
+							<p class="big color_max">
+								<i class="fa fa-phone"></i><a class="color_mid reverse transition_settings_25"
+									href="tel:+91-8181022104"> +91 8181022104</a><br>
+								<i class="fa fa-envelope"></i><a class="color_mid reverse transition_settings_25"
+									href="mailto:akhilcodebugged@gmail.com?Subject=Hello"> @akhil</a>
+							</p>
+							<span class="base_margin_spacer_x2"></span>
+						</div>
+						<div class="col-md-4 col-xs-12 col-xs-offset-0">
+							<p class="big color_max">
+								Ghaziabad<br>
+								201009 INDIA
+							</p>
+							<span class="base_margin_spacer_x2"></span>
+						</div>
+
+						<div class="col-md-9 col-md-offset-3 col-xs-12 col-xs-offset-0">
+							<!-- Mail adress -->
+							<p class="huge">
+								<a class="transition_settings_20 accent_color_text accent_border_color"
+									href="mailto:akhilcodebugged@gmail.com">hello@akhil</a></p>
+							<span class="base_margin_spacer"></span>
+							<span class="base_margin_spacer"></span>
+							<p class="">
+								Reach out for a new project or just say hello
+							</p>
+							<span class="base_margin_spacer_x2"></span>
+						</div>
+						<!-- Contacts form -->
+						<div class="col-md-9 col-md-offset-3 col-xs-12 col-xs-offset-0">
+							<div class="bottom_form_container">
+								<div class="bottom_form transition_settings_25">
+									<form id="contactForm">
+										<div class="input_helper">
+											<input
+												class="border_color full_width accent_outline_color float_l inp_1 transition_settings_25"
+												type="text" value="" id="name" name="name" placeholder="name">
+										</div>
+										<div class="input_helper">
+											<input
+												class="border_color full_width accent_outline_color inp_2 transition_settings_25"
+												type="text" value="" id="email" name="email" placeholder="email">
+										</div>
+										<div class="textarea_helper">
+											<textarea
+												class="border_color full_width accent_outline_color float_l bottom_textarea transition_settings_25"
+												id="message" name="message" cols="30" rows="10"
+												placeholder="message"></textarea>
+										</div>
+										<button id="submit_form_btn"
+											class="submit_btn color_white accent_color_background uppercase color_on_accent transition_settings_25"
+											type="submit" value="">send email</button>
+									</form>
+								</div>
+								<div class="three_dot transition_settings_25">
+									<div class="dots_container">
+										<span class="accent_color_background"></span>
+										<span class="accent_color_background"></span>
+										<span class="accent_color_background"></span>
+									</div>
+								</div>
+								<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+								<script src="js/firebase.js"></script>
+								<div class="send_container transition_settings_25">
+									<div class="checkmark">
+										<span class="checkmark_after accent_border_color"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Footer block -->
+					<div class="footer">
+						<div class="row">
+							<div class="col-md-9 col-md-offset-3 col-xs-12 col-xs-offset-0">
+								<span class="base_margin_spacer"></span>
+								<span class="base_margin_spacer"></span>
+								<!-- Social icons for mobile version -->
+								<div class="mobile_soc_icons footer_soc_icons_show">
+									<div class="social_icon_footer">
+										<a href="https://www.facebook.com/AkhilChaudhary8181022104"><i
+												class="fa fa-facebook footer_icon color_mid" aria-hidden="true"></i></a>
+										<a href="https://github.com/Akhil-chaudhary/"><i
+												class="fa fa-github footer_icon color_mid" aria-hidden="true"></i></a>
+										<a href="https://www.instagram.com/akhilchaudhary.js/"><i
+												class="fa fa-instagram footer_icon color_mid"
+												aria-hidden="true"></i></a>
+										<a href="https://www.linkedin.com/in/akhil-chaudhary-0478a1187"><i
+												class="fa fa-linkedin footer_icon color_mid" aria-hidden="true"></i></a>
+										<span class="base_margin_spacer"></span>
+									</div>
+								</div>
+								<!-- Footer info -->
+								<div class="footer_info_container">
+									<p class="small_text color_min">
+										© 2020 Akhil. All rights reserved.
+									</p>
+								</div>
+								<span class="base_margin_spacer"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Social icons for desctop version -->
+			<div id="footer_soc_container" class="desctop_soc_icons">
+				<div class="social_icon_footer">
+					<a href="https://www.facebook.com/AkhilChaudhary8181022104"
+						class="transition_settings_25 reverse color_mid"><i class="fa fa-facebook footer_icon "
+							aria-hidden="true"></i></a>
+					<a href="https://github.com/Akhil-chaudhary/" class="transition_settings_25 reverse color_mid"><i
+							class="fa fa-github footer_icon " aria-hidden="true"></i></a>
+					<a href="https://www.instagram.com/akhilchaudhary.js/"
+						class="transition_settings_25 reverse color_mid"><i class="fa fa-instagram footer_icon "
+							aria-hidden="true"></i></a>
+					<a href="https://www.linkedin.com/in/akhil-chaudhary-0478a1187"
+						class="transition_settings_25 reverse color_mid"><i class="fa fa-linkedin footer_icon "
+							aria-hidden="true"></i></a>
+				</div>
+			</div>
+
+			<!-- =========================
+PHOTOSWIPE POPUP WINDOW
+============================== -->
+			<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="pswp__bg accent_color_overlay"></div>
+				<div class="pswp__scroll-wrap">
+					<div class="pswp__container">
+						<div class="pswp__item"></div>
+						<div class="pswp__item"></div>
+						<div class="pswp__item"></div>
+					</div>
+					<div class="pswp__ui pswp__ui--hidden">
+						<div class="pswp__top-bar">
+							<div id="gitlink">
+								<a href="https://github.com/Akhil-chaudhary/"><img src="img/link.png" height="70px"
+										style="padding-left: 20px;padding-top:20px;"></a>
+								
+							<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+							</div>
+							<div class="pswp__counter"></div>
+							<button class="pswp__button pswp__button--share" title="Share"></button>
+							<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+							<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+							<div class="pswp__preloader">
+								<div class="pswp__preloader__icn">
+									<div class="pswp__preloader__cut">
+										<div class="pswp__preloader__donut"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+							<div class="pswp__share-tooltip"></div>
+						</div>
+						<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+						</button>
+						<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+						</button>
+						<div class="pswp__caption">
+							<div class="pswp__caption__center"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- =========================
+    END OF MAIN SECTION 
+============================== -->
+
+		<!-- =========================
+     SCRIPTS 
+============================== -->
+		<script src="ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/headroom.js"></script>
+		<script src="js/photoswipe.min.js"></script>
+		<script src="js/skrollr.js"></script>
+		<script src="js/progressbar.js"></script>
+		<script src="js/jquery.hover3d.js"></script>
+		<script src="js/photoswipe-ui-default.min.js"></script>
+		<script src="js/progressbar_tools.js"></script>
+		<script src="js/styleswitcher.js"></script>
+		<!-- Custom Script -->
+		<script src="js/main.js"></script>
+
+</body>
